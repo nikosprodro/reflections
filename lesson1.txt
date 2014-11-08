@@ -1,0 +1,51 @@
+The diff command is nothing new to me I have done it before although I did not remember using the -u flag!
+
+How could having easy access to the entire history of a file make you
+a more efficient programmer in the long term?
+
+  By having old version of files you can feel safe that any changes you
+do that might brake the code will not be permanent and that you can easily go back to a previous working version, you can also easily track changes in your code between versions, thus making error fixes and/or specific line changes much easier. Finally it helps when collaborating with other people in order to track
+changes made by every participant on the project.
+
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having automatically saved, like
+Google docs does?
+
+  Pros: You can judge what is the correct size of a commit so
+as not to clutter the system with to many commits or make them to big
+and thus unreadable.
+        Automatic commits will not distinct between logical changes in your code, it is better when a developer decides that a group of changes belong to the same logical operation and thus commits it together.
+        Adding messages to your commits is very helpful when others
+browse through the commit list and even for you when you read about your
+commits in the future.
+
+  Cons: People often make error judgments, so when commiting they might become unreasonable, their commits might either be too large or too small or with many changes and on various parts of the system.
+
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+  Git is a version control system focused on creating projects, on your project you will probably have many files and you will have to change
+many of them at the same time. Other version control systems, like
+Google docs, are focused in keeping track of single documents and do not
+support the features in order to create whole projects with them.
+
+How can you use the command git log and git diff to view the history of
+files?
+
+  You can track the list of history of commits with git log and then
+compare any two versions using the git diff command. With this technique
+you can track the whole history of any file.
+
+How might using version control make you more confident to make changes
+that could break something?
+
+  You can feel more confident with your code because even if you
+introduce an error you can always go back to the latest errorless commit and continue working with bug-free code.
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+
+  I want to use git to control my current project and in the future
+start a colaborative project with friends and control it using git as
+well.
