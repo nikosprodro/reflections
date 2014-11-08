@@ -1,0 +1,16 @@
+What happens when yo initialize a repository? Why do you need to do it?
+
+  You need to initialize a repository in order to add it under git
+control and start using it with the git versioning system.
+When initializing a repository a hidden git directory is created
+which holds all the information about the versions and status of the
+files within that repository. As one would expect there are no commits in a newly created repository, and the files of that repository need to be added to git by using the "git add" command before starting commiting them.
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+  The staging area is the intermediate area between the working
+directory and the repository, files are added to the staging area
+before committing them to the repository.
+  The staging area helps keep track of the files that are to be
+committed to the repository, you can keep a new file safely in your working directory and only added in the staging area when it is ready to be committed.
