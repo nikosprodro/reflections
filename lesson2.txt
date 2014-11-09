@@ -19,3 +19,9 @@ logical change?
 
   Even if you have worked on many parts of your project in your
 working directory and have many "logical" changes to commit you can add them to the staging area and commit them one-by-one thus keeping your commits clean and with meaningfull messages.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+  Branches help organize history when creating new features, you can have the code for the new feature seperated in a branch, have all the historical data of those changes bundled together and then commit them when the feature is ready to be deployed.
+  Also branches can be used in trscking teamwork history. When developers are working on different areas of a project (i.e. one developer's code does not touch another developer's code), each developer can work and commit his changes on his own branch, and at the end all branches can be merged into the master branch.
