@@ -44,3 +44,13 @@ represent it in the diagram the way we do?
 
   Merging two branches does mainly two things, it combines the code from the tip of one branch to the tip of the other and it joins the commits of the two branches sorting them in the list with the chronological order they where created.
   When one of the merging branches is the master then we typicaly say that we merge the changes "into the master branch" and afterwards we delete the merged branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+  Automatic merging:
+Pro: Very usefull when merging big chunks of code
+Pro: It automaticaly combines the commits nicely in chronological order
+Con: It is virtualy impossible to resolve conflicts on its own
+
+  Manual Merging:
+Pros & Cons are the exact opposites of "Automatic merging"
