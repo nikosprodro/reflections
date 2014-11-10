@@ -25,3 +25,22 @@ history organized? How would branches help?
 
   Branches help organize history when creating new features, you can have the code for the new feature seperated in a branch, have all the historical data of those changes bundled together and then commit them when the feature is ready to be deployed.
   Also branches can be used in trscking teamwork history. When developers are working on different areas of a project (i.e. one developer's code does not touch another developer's code), each developer can work and commit his changes on his own branch, and at the end all branches can be merged into the master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+  By drawing a graph of the structure of your branches you can clearly see at what point in history every branch was created and get a picture of
+which commits are accessible by each branch. Also you can manually add
+any detached HEAD commits that you create by adding their node and log
+ID to your graph, it is rough but can be proven very helpful in
+situations where you left the commit hanging without creating a branch
+for it yet.
+NOTE: the command "git checkout -b new_branch_name" is shorthand for the
+two command:
+1) git branch new_branch_name
+2) git checkout new_branch_name
+
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+  Merging two branches does mainly two things, it combines the code from the tip of one branch to the tip of the other and it joins the commits of the two branches sorting them in the list with the chronological order they where created.
+  When one of the merging branches is the master then we typicaly say that we merge the changes "into the master branch" and afterwards we delete the merged branch.
