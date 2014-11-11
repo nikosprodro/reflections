@@ -20,3 +20,8 @@ you use one instead of another?
   Branches are parts of a repository and have different parts of code and commit history they might exist only in the working area or also commited to the repository. Branches can be merged together as well as at the master branch.
 
   It is preferable to FORK a repository in order to make changes without affecting the code on the original project. CLONES should be used when you want to start working on a repository and start keeping log and committing changes and BRANCHES should be created when working on different aspects of the project that you do not want to merge yet in the master branch.
+
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+  After you fetch a copy of the last known state of a remote branch you can work with it even if you are offline, and then you can push your changes at any point in the future.
