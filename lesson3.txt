@@ -11,3 +11,12 @@ developers you do not know contribute to your project.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
   It is better to have control of what code exists in your local repository so as not to get mixed with other peoples code, this might confuse you (if a new functionality is added in what you are wotking on) or even create confilcts
+
+Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+  Forks are used to copy someones code in your github space and then clone it in your working area and work with it independently of the original project.
+  Clones are copies of a repository which you can work on and then commit changes back to the repository.
+  Branches are parts of a repository and have different parts of code and commit history they might exist only in the working area or also commited to the repository. Branches can be merged together as well as at the master branch.
+
+  It is preferable to FORK a repository in order to make changes without affecting the code on the original project. CLONES should be used when you want to start working on a repository and start keeping log and committing changes and BRANCHES should be created when working on different aspects of the project that you do not want to merge yet in the master branch.
