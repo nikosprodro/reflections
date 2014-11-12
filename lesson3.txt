@@ -25,3 +25,13 @@ What is the benefit of having a copy of the last known state of the
 remote stored locally?
 
   After you fetch a copy of the last known state of a remote branch you can work with it even if you are offline, and then you can push your changes at any point in the future.
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+  Without github (or any other versioning tool) colaboration with
+other people would require some means of communication in order to
+review code that has changed and code from work in progress, in order to verify that there will be no conflicts upon changes and that the code is good to be deployed. Furthermore we would need some space to place the code, and this space would need to be administered by someone.
+  There are other aspects of collaboration that github handles
+automatically (commenting on specific code changes, reviewing history
+et.) the lack of which (automation) makes collaboration extremely difficult.
