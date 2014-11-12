@@ -35,3 +35,17 @@ review code that has changed and code from work in progress, in order to verify 
   There are other aspects of collaboration that github handles
 automatically (commenting on specific code changes, reviewing history
 et.) the lack of which (automation) makes collaboration extremely difficult.
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+  When the changes refer to parts of code that other people might be
+working on then it makes sense to do them in a separate branch and
+eventually committing that branch and making a pull request. Also I
+would use a different branch when working on a completely new feature
+that will not be ready to be committed to master for quite some time.
+  The benefit of working on a separate branch is that I can keep my
+code independent and merge it only when it is properly ready to be
+added to master, the benefit of working on the master branch is that I
+can do my work more quickly and without the extra branching overhead,
+if of course it is not necessary. 
